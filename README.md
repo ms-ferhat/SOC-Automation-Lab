@@ -57,11 +57,19 @@ curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-in
 - username: `admin`
 - password: `.Uk60McQSYZnnIrKup*+mUbr5To7eLAc
 
+  **After that, try to login to Wazuh server, search for your server IP in any web browser**
+
+`https://192.168.244.132` ---> for me
+
   ![Wazuh_dash](https://github.com/user-attachments/assets/218a7790-72a1-4f72-a8ec-0375b24efb93)
 
+#### Step 1.3: Install TheHive
 
-**After that, try to login to Wazuh server, search for your server IP in any web browser**
-```
-`https://192.168.244.132` ---> for me
+**The easiest way to install and config thehive is to follow this [docment](https://docs.strangebee.com/thehive/installation/step-by-step-installation-guide/)
+After that, go to your browser search about you Ubunt `machine_ip:9000`, Will find page like that.
+![TheHive_Server](https://github.com/user-attachments/assets/8fe4f965-0b0c-477b-827e-970812fe68ba)
+
+
+
 
 
