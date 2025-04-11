@@ -57,6 +57,8 @@ curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-in
 - username: `admin`
 - password: `.Uk60McQSYZnnIrKup*+mUbr5To7eLAc
 
+  ![Wazuh_dash](https://github.com/user-attachments/assets/218a7790-72a1-4f72-a8ec-0375b24efb93)
+
 
 **After that, try to login to Wazuh server, search for your server IP in any web browser**
 ```
