@@ -28,3 +28,5 @@ The SOC Automation Platform project aims to create an integrated security operat
     - Sending email notifications with responsive actions.
 4. **TheHive:** Serves as the case management platform, logging incidents for investigation.
 5. **Email Notifications:** Used for alerting SOC analysts and triggering automated responses.
+
+![Lab WorkFlow](SOC_Automation.png)
