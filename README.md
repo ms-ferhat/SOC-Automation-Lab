@@ -30,3 +30,17 @@ The SOC Automation Platform project aims to create an integrated security operat
 5. **Email Notifications:** Used for alerting SOC analysts and triggering automated responses.
 
 ![Lab WorkFlow](SOC_Automation.png)
+
+
+## Steps
+
+### Step 1: Local Environment Setup
+
+**We will need these machines during this lab.
+
+| VM Name      | OS           | Allocation      | 
+| ------------ | ------------ | --------------- | 
+| win10-client | Windows 10   | 2 vCPU, 4GB RAM |
+| wazuh-server | Ubuntu 22.04 | 2 vCPU, 4GB RAM |
+| TheHive      | Ubuntu 22.04 | 2 vCPU, 4GB RAM | 
+
