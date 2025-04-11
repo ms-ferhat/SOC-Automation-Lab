@@ -36,11 +36,30 @@ The SOC Automation Platform project aims to create an integrated security operat
 
 ### Step 1: Local Environment Setup
 
-**We will need these machines during this lab.
+**We will need these machines during this lab.**
 
 | VM Name      | OS           | Allocation      | 
 | ------------ | ------------ | --------------- | 
 | win10-client | Windows 10   | 2 vCPU, 4GB RAM |
 | wazuh-server | Ubuntu 22.04 | 2 vCPU, 4GB RAM |
 | TheHive      | Ubuntu 22.04 | 2 vCPU, 4GB RAM | 
+
+Installing these machines on Vmware is straightforward and does not need to be added here.
+
+#### Step 1.2: Wazuh Installation
+
+```
+curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+```
+
+**Note to save username and password show after installation**
+
+- username: `admin`
+- password: `.Uk60McQSYZnnIrKup*+mUbr5To7eLAc
+
+
+**After that, try to login to Wazuh server, search for your server IP in any web browser**
+```
+`https://192.168.244.132` ---> for me
+
 
